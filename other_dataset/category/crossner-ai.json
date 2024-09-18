@@ -1,0 +1,4 @@
+{
+    "dataset": "CrossNER",
+    "first-level": "product, programlang, person, conference, location, researcher, country, task, university, organization, metrics, field, algorithm,, miscellaneous"
+}

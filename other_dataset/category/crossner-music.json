@@ -1,0 +1,4 @@
+{
+    "dataset": "CrossNER",
+    "first-level": "album, event, country, music genre, band, organization, musical instrument, person, song, location, award, musical artist, miscellaneous"
+}

@@ -1,0 +1,14 @@
+{
+    "dataset": "fewnerd",
+    "first-level": "art, building, event, location, organization, other, person, product",
+    "second-level": {
+        "art": "broadcastprogram, film, music, other, painting, writtenart",
+        "building": "airport, hospital, hotel, library, other, restaurant, sportsfacility, theater",
+        "event": "attack/battle/war/militaryconflict, disaster, election, other, protest, sportsevent",
+        "location": "bodiesofwater, GPE, island, mountain, other, park, road/railway/highway/transit",
+        "organization": "company, education, government/governmentagency, media/newspaper, other, politicalparty, religion, showorganization, sportsleague, sportsteam",
+        "other": "astronomything, award, biologything, chemicalthing, currency, disease, educationaldegree, god, language, law, livingthing, medical",
+        "person": "actor, artist/author, athlete, director, other, politician, scholar, soldier",
+        "product": "airplane, car, food, game, other, ship, software, train, weapon"
+    }
+}
