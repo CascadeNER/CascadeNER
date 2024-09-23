@@ -1,16 +1,13 @@
 # GEIC: Universal and Multilingual Named Entity Recognition with Large Language Models
 This repository is supplement material for the paper: GEIC: Universal and Multilingual Named Entity Recognition with Large Language Models
-This repository includes CascadeNER and AnythingNER, our NER framework and our dataset
-CascadeNER is the first universal and multilingual NER framework with SLMs, which supports both few-shot and zero-shot scenarios and achieves SOTA performance on low-resource and fine-grained datasets
-AnythingNER is the first multilingual and fine-grained datasets designed for NER with LLMs, especially GEIC, with a novel dynamic categorization system
 📖: [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]() &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 📚 Features
-* 
+* This repository includes CascadeNER and AnythingNER, our NER framework and our dataset
 
-* 
+* CascadeNER is the first universal and multilingual NER framework with SLMs, which supports both few-shot and zero-shot scenarios and achieves SOTA performance on low-resource and fine-grained datasets
 
-* 
+* AnythingNER is the first multilingual and fine-grained datasets designed for NER with LLMs, especially GEIC, with a novel dynamic categorization system
 <!-- <p align="center">
   <img src="Figure/example.png" width="75%"/>
 </p>
@@ -26,11 +23,13 @@ AnythingNER is the first multilingual and fine-grained datasets designed for NER
 <p align="center">
   <img src="figure/multilingual.png" width="90%"/>
 </p>
-## 📌 Prerequesties
+
+## 📌 Prerequisites
+
 1. `conda create -n cascadener python=3.10`
 2. `pip install -r requirements.txt`
-3. you may also use a standard environment for [SWIFT](https://github.com/modelscope/ms-swift)
-4. download finetuned [extractor] and [classifier](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main), and put them into corresponding path. Both model are fine-tuned based on QWEN2-1.5B.
+3. You may also use a standard environment for [SWIFT](https://github.com/modelscope/ms-swift).
+4. Download the fine-tuned [extractor] and [classifier](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main), and place them into the corresponding paths. Both models are fine-tuned based on QWEN2-1.5B.
 
 ## 🌟 Usage
 <!-- * First, download finetuned [InternVL-4B](https://huggingface.co/BIGBench/InternVL-4B-bench) and [qwen1-5b](https://huggingface.co/VersusDebias/VersusDebias/tree/main), and put them into `./model`
