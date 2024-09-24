@@ -1,6 +1,6 @@
 # GEIC: Universal and Multilingual Named Entity Recognition with Large Language Models
 This repository is supplement material for the paper: GEIC: Universal and Multilingual Named Entity Recognition with Large Language Models  
-📖: [![paper](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2409.11022) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<!-- 📖: [![paper](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2409.11022) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
 
 ## 📚 Features
 * This repository includes CascadeNER and AnythingNER, our NER framework and our dataset
