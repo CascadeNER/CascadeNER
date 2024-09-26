@@ -2,6 +2,15 @@
 This repository is supplement material for the paper: GEIC: Universal and Multilingual Named Entity Recognition with Large Language Models  
 <!-- 📖: [![paper](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2409.11022) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
 
+## 💓Update!
+* We add more GEIC format existing datasets and also the format for fine-tuning and inferrence based on SWIFT! You can test CascadeNER easier!
+
+* The datasets are too large so they are uploaded to our [huggingface](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main)
+
+* We provide a demo.py now. You can test your own sentence in a very simple way!
+
+* We discover a problem that as SWIFT has been updated and some parameters has been changed, so please use the old version (according to requirements.txt)
+
 ## 📚 Features
 * This repository includes CascadeNER and AnythingNER, our NER framework and our dataset
 
