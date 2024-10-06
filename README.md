@@ -3,6 +3,8 @@ This repository is supplement material for the paper: GEIC: Universal and Multil
 <!-- 📖: [![paper](https://img.shields.io/badge/arXiv-Paper-blue.svg)](https://arxiv.org/abs/2409.11022) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
 
 ## 💓Update!
+* AnythingNER is disclosed now! Please download it from Huggingface for train and evaluation!
+
 * We add more GEIC format existing datasets and also the format for fine-tuning and inferrence based on SWIFT! You can test CascadeNER easier!
 
 * We provide a demo.py now. You can test your own sentence in a very simple way!
@@ -32,7 +34,7 @@ This repository is supplement material for the paper: GEIC: Universal and Multil
 2. `pip install -r requirements.txt`
 3. You may also use a standard environment for [SWIFT](https://github.com/modelscope/ms-swift).
 4. Download the fine-tuned [extractor](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main) and [classifier](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main), and place them into the corresponding paths. Both models are fine-tuned based on QWEN2-1.5B.
-5. You may also download [AnythingNER](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main) and [other GEIC format dataset](https://huggingface.co/CascadeNER/models_for_CascadeNER/tree/main) to train your own model.
+5. You may also download [AnythingNER](https://huggingface.co/datasets/CascadeNER/AnythingNER/tree/main) and [other GEIC format dataset](https://huggingface.co/datasets/CascadeNER/AnythingNER/tree/main) to train your own model.
 
 ## 🌟 Usage
 * Train: please use [SWIFT](https://github.com/modelscope/ms-swift) for model training. We strongly recommend Qwen2 and Gemma for your base models. You may use follow the examples in `train` to get the format of train sets.
