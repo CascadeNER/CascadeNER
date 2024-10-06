@@ -69,7 +69,6 @@ def convert_to_complex_conversation_format(json_data, category_structure):
                         entity_positions.append((index, index + len(e), j))
                         start_index = index + len(e)
                     except ValueError:
-                        print(f"警告: 实体 '{e}' 在句子中未找到: '{sentence}'")
                         continue
 
                 # Sort entity positions to handle overlapping entities
@@ -97,8 +96,6 @@ def write_json_file(data, output_file):
 
 def process_directory(input_dir, category_structure_file, output_dir):
     category_structure = load_category_structure(category_structure_file)
-    
-    # 确保输出目录存在
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     
     for filename in os.listdir(input_dir):
