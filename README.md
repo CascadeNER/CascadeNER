@@ -37,9 +37,9 @@ This repository is supplement material for the paper: GEIC: Universal and Multil
 5. You may also download [AnythingNER](https://huggingface.co/datasets/CascadeNER/AnythingNER/tree/main) and [other GEIC format dataset](https://huggingface.co/datasets/CascadeNER/AnythingNER/tree/main) to train your own model.
 
 ## 🌟 Usage
-* Train: please use [SWIFT](https://github.com/modelscope/ms-swift) for model training. We strongly recommend Qwen2 and Gemma for your base models. You may use follow the examples in `train` to get the format of train sets.
+* Train: please use [SWIFT](https://github.com/modelscope/ms-swift) for model training. We strongly recommend Qwen2 and Gemma for your base models. You may use follow the examples in any `train.json` from GEIC format dataset in huggingface to get the format of train sets. We now provide a example in `./AnythingNER/example.json`
 
-* First, prepare your own dataset in GEIC format for infer and use `geic2input.py` to get input file for inferrence. You may also use the datasets we provided in GEIC format.
+* First, prepare your own dataset in GEIC format for infer and use `./AnythingNER/transformation/stage1_trans.py` to get input file for inferrence. You may also use the datasets we provided in GEIC format.
 
 * Second, change your own paths in `infer.py` and `extract.sh`, including two model paths, dataset path, category path, and output path.
 
